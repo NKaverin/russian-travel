@@ -1,0 +1,19 @@
+.footer__links__element__link {
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.footer__links__element__link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 768px) {
+    .footer__links__element__link:nth-child(n+2) {
+        padding-top: 0px;
+        padding-left: 18px;
+    }
+}

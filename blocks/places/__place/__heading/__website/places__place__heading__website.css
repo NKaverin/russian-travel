@@ -1,0 +1,25 @@
+.places__place__heading__website {
+    margin-top: 32px;
+    align-self: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+    .places__place__heading__website {
+        margin-top: 0;
+        margin-left: 28px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .places__place__heading__website {
+        margin-top: 0;
+        margin-left: 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .places__place__heading__website {
+        margin-top: 0;
+        margin-left: 40px;
+    }
+}
