@@ -1,0 +1,24 @@
+.places__main-text {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 16px 0 16px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .places__main-text {
+        margin: 0 28px 0 28px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .places__main-text {
+        margin: 0 32px 0 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .places__main-text {
+        margin: 0 40px 0 40px;
+    }
+}
