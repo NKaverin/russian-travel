@@ -8,17 +8,20 @@
 @media screen and (min-width: 768px) {
     .places__main-text {
         margin: 0 28px 0 28px;
+        min-width: 352px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .places__main-text {
         margin: 0 32px 0 32px;
+        min-width: 456px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .places__main-text {
         margin: 0 40px 0 40px;
+        min-width: 484px;
     }
 }
